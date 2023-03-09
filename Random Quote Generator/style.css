@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,700&family=Heebo:wght@500;700&family=Josefin+Sans:ital,wght@1,700&family=Lobster&family=Montserrat:wght@100&family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #45d3a47e;
+}
+
+.container .quotes {
+    padding: 30px;
+}
+
+.container .quotes .quote {
+    padding: 20px;
+    background-color: #ffe4c4;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+.container .quotes .author {
+    padding: 20px;
+    background-color: honeydew;
+    border-radius: 12px;
+    margin-bottom: 200px;
+    margin-top: 15px;
+}
+
+.container button {
+    padding: 18px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 12px;
+}
