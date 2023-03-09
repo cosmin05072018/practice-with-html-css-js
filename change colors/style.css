@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Lobster&family=Montserrat:wght@100&family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+    font-size: 26px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container .color {
+    margin-bottom: 16px;
+    color: #ffff;
+}
+
+.container button {
+    border: none;
+    padding: 20px;
+    color: #ffff;
+    background-color: #393939;
+    border-radius: 12px;
+    letter-spacing: 5px;
+}
+
+.container button:hover {
+    background-color: #b7b4b41f;
+    color: #393939;
+    border-bottom: 1px solid #393939;
+    transition: 1s linear;
+}
